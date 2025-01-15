@@ -9,7 +9,7 @@ export default {
   	extend: {
 
 		backgroundImage :{
-			'bgMain': "url('./src/assets/imgs/BgMain.gif')",
+			'bgMain': "url('./public/bgMain.gif')",
             
 		},
 
