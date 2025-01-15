@@ -4,10 +4,10 @@ import Navbar from "./components/Navbar"
 function App() {
 
   return (
-   <div className="bg-black">
+   <div className="">
    
     <Navbar></Navbar>
-    <div className="p-10">
+    <div className="py-10">
     <Main></Main>
     </div>
 

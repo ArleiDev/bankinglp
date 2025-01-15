@@ -7,6 +7,12 @@ export default {
   ],
   theme: {
   	extend: {
+
+		backgroundImage :{
+			'bgMain': "url('./src/assets/imgs/BgMain.gif')",
+            
+		},
+
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',

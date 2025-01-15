@@ -2,7 +2,7 @@ import { Button } from './ui/button'
 import logo from '../assets/imgs/logo.png'
 const Navbar = () => {
   return (
-    <div className='flex justify-around w-full h-14 bg-zinc-950'>
+    <div className='flex justify-around w-full h-14 bg-zinc-950 fixed'>
       <div className=' flex items-center '>
         <img className='h-14' src={logo} alt=""  />
       </div>
