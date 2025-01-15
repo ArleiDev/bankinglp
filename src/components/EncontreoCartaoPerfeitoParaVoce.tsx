@@ -14,7 +14,7 @@ const EncontreoCartaoPerfeitoParaVoce = () => {
           distance: '50px', // Distância do movimento
           duration: 1000,   // Duração da animação em milissegundos
           delay: 200,       // Atraso antes de iniciar
-          reset: true,      // Repetir animação ao voltar ao scroll
+          reset: false,      // Repetir animação ao voltar ao scroll
         });
     
         sr.reveal('.reveal', {
