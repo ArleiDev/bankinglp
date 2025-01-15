@@ -1,6 +1,4 @@
 
-import{ useEffect } from 'react';
-import ScrollReveal from 'scrollreveal'
 import card1 from '@/assets/imgs/card1.png'
 import card2 from '@/assets/imgs/card2.png'
 import card3 from '@/assets/imgs/card3.png'
@@ -8,7 +6,7 @@ import card3 from '@/assets/imgs/card3.png'
 import TiltCard from '@/components/ui/TiltCard'
 const EncontreoCartaoPerfeitoParaVoce = () => {
 
- 
+
 
   return (
     <div className="bg-black flex items-center justify-center py-10 text-white relative">
