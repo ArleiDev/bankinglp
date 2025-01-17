@@ -1,7 +1,7 @@
 import  { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
-import Logo from '../../public/imgs/logo.png'
+import Logo from '/imgs/logo.png'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +20,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center">
+          <div className="border-b-green-500 border-b rounded-lg p-2 hidden md:flex items-center">
             <ul className="flex items-center space-x-6 text-green-400">
               <li className="hover:scale-110 transition-all duration-200 cursor-pointer">Início</li>
               <li className="hover:scale-110 transition-all duration-200 cursor-pointer">Produtos</li>

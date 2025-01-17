@@ -9,7 +9,7 @@ export default {
   	extend: {
 
 		backgroundImage :{
-			'bgMain': "url('../../public/imgs/bgMain.png')",
+			'bgMain': "url('/imgs/bgMain.png')",
 			'card1': "url('./src/assets/imgs/card1.png')",
 			'card2': "url('./src/assets/imgs/card2.png')",
 			'card3': "url('./src/assets/imgs/card3.png')",
