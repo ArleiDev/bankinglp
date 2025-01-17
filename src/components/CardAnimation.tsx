@@ -5,8 +5,7 @@ import {
   useMotionValue,
   useSpring,
 } from "framer-motion";
-import card from '../assets/imgs/cards.svg'
-
+import card from '../../public/imgs/cards.svg'
 const CardAnimation = () => {
   return (
     <div className="grid place-content-center bg-gradient-to-br  text-slate-900">

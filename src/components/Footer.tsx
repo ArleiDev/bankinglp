@@ -1,5 +1,4 @@
-import Logo from '@/assets/imgs/logo.png'
-
+import Logo from '../../public/imgs/logo.png'
 const Footer = () => {
   return (
     <footer className="bg-zinc-950">

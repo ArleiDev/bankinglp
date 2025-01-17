@@ -1,7 +1,7 @@
 
-import card1 from '@/assets/imgs/card1.png'
-import card2 from '@/assets/imgs/card2.png'
-import card3 from '@/assets/imgs/card3.png'
+import card1 from '../../public/imgs/card1.png'
+import card2 from '../../public/imgs/card2.png'
+import card3 from '../../public/imgs/card3.png'
 
 import TiltCard from '@/components/ui/TiltCard'
 const EncontreoCartaoPerfeitoParaVoce = () => {
