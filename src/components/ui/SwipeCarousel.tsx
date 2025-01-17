@@ -35,8 +35,8 @@ const ImageCarousel = () => {
   }, []);
 
   return (
-    <div className="relative w-[1500px] mx-auto">
-      <div className="relative h-[500px] overflow-hidden rounded-lg">
+    <div className="relative w-[300px] mx-auto sm:w-[1200px]">
+      <div className="relative h-[200px] sm:h-[400px] overflow-hidden rounded-lg">
         {images.map((img, index) => (
           <div
             key={index}
@@ -52,7 +52,7 @@ const ImageCarousel = () => {
             <img
               src={img}
               alt={`Slide ${index + 1}`}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-fill sm:object-cover"
             />
           </div>
         ))}

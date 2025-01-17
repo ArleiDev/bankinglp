@@ -21,10 +21,10 @@ const SegurancaeConfianca = () => {
 
 
   return (
-    <div className="bg-black flex items-center justify-center py-32 pt-32 text-white relative">
-      <div className="flex gap-40">
+    <div className="bg-black flex flex-wrap items-center justify-center py-32 pt-32 text-white relative">
+      <div className="flex justify-center sm:justify-start  text-center sm:text-left flex-wrap gap-40">
         <div>
-          <h1 className='reveal text-4xl max-w-96 '>
+          <h1 className='reveal flex text-4xl  max-w-96 '>
             Nossa segurança segue os mais altos padrões internacionais,
             garantindo tranquilidade total.
           </h1>
