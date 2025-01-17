@@ -9,7 +9,7 @@ const EncontreoCartaoPerfeitoParaVoce = () => {
 
 
   return (
-    <div className="bg-black flex items-center justify-center py-10 text-white relative">
+    <div className="bg-black flex flex-col items-center justify-center py-10 text-white relative">
       <div className="flex flex-col gap-40">
         <div>
           <h1 className=' text-4xl max-w-[1000px] text-center mt-20 mb-5 items-center '>
@@ -23,6 +23,7 @@ const EncontreoCartaoPerfeitoParaVoce = () => {
         <TiltCard bgImg={card3} ></TiltCard>
         </div>
       </div>
+     
     </div>
   );
 };

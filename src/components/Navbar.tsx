@@ -8,10 +8,12 @@ const Navbar = () => {
       </div>
       <div className='flex items-center text-green-400 border-b border-green-500 mb-1 rounded-2xl px-10'>
         <ul className='flex items-center space-x-6'>
-          <li className='hover:scale-110 transition-all duration-200 cursor-pointer'>Home</li>
-          <li className='hover:scale-110 transition-all duration-200 cursor-pointer'>About</li>
-          <li className='hover:scale-110 transition-all duration-200 cursor-pointer'>Services</li>
-          <li className='hover:scale-110 transition-all duration-200 cursor-pointer'>Contact</li>
+          <li className='hover:scale-110 transition-all duration-200 cursor-pointer'>Início</li>
+          <li className='hover:scale-110 transition-all duration-200 cursor-pointer'>Produtos</li>
+          <li className='hover:scale-110 transition-all duration-200 cursor-pointer'>Cartões</li>
+          <li className='hover:scale-110 transition-all duration-200 cursor-pointer'>Investimentos</li>
+          <li className='hover:scale-110 transition-all duration-200 cursor-pointer'>Ajuda</li>
+
         </ul>
       </div>
       <div className='items-center flex'>

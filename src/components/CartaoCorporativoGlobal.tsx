@@ -6,7 +6,11 @@ const CartaoCorporativoGlobal = () => {
 
 </TextAnimate>
 <TextAnimate  className="text-6xl text-white text-center max-w-[1000px] mb-10 font-bold"> e total visibilidade.</TextAnimate>
+    
+
     </div>
+
+    
   )
 }
 
