@@ -35,7 +35,7 @@ const ImageCarousel = () => {
   }, []);
 
   return (
-    <div className="relative w-[300px] mx-auto sm:w-full p-16 ">
+    <div className="relative w-[600px] mx-auto sm:w-full p-16 ">
       <div className="relative h-[200px] sm:h-[600px] overflow-hidden rounded-lg">
         {images.map((img, index) => (
           <div
